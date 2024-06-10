@@ -1,0 +1,45 @@
+body {
+    background: #000000;
+    font-family: arial;
+    margin: 0;
+}
+
+header {
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+.logo-nav-container {
+    display: flex;
+    align-items: center;
+}
+
+#img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px; /* Ajoute une marge à droite pour séparer l'image du texte */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
